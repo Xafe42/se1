@@ -1,0 +1,18 @@
+//-----------------------------------------------------------------------------
+// Project settings for VSCode IDE
+//
+// supplements and overwrites system-side settings in global settings.json
+// (on Windows: C:/Users/<user>/AppData/Roaming/Code/User/settings.json)
+//-----------------------------------------------------------------------------
+{
+    // Run/Debug Java launcher with cmd.exe since it issues "C:\\" path to java
+    "terminal.integrated.automationProfile.windows": {
+        "path": "cmd"
+    },
+    //
+    // Java Code Runner (extension) properties
+    "code-runner.defaultLanguage": "java",
+    "code-runner.executorMap": {
+        "java": "java -cp bin Numbers 3 8 12 sieben sechs",
+    },
+}

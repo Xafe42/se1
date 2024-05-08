@@ -1,0 +1,21 @@
+$ export CLASSPATH=bin oder java -cp
+
+source .bashrc # reload .bashrc to activate PATH definitions
+
+bin.java HelloWorld
+
+code .
+
+show
+
+mk compile
+
+mk javadoc
+
+mk run-tests
+
+echo $LANG //Sprache testen
+
+Tab Taste zum vervollständigen
+
+Auswahl -> Power Set (Potenzmenge)/Anordnung = Brute Force
